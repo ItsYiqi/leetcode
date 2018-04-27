@@ -30,7 +30,8 @@ var twoSum = function(nums, target) {
   }
 
 };
-//
+
+//brute force
 var twoSum = function(nums,target){
   for(var i =0;i<nums.length;i++){
     var tem= target- nums[i];
